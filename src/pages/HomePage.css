@@ -1,0 +1,50 @@
+.homepage {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.homepage__image {
+    padding: 20px;
+}
+.homepage__trainer {
+    padding: 20px;
+    color: red;
+    font-size: 30px;
+}
+.homepage__welcome {
+    padding: 20px;
+    font-weight: 800;
+}
+.homepage__form {
+    padding: 20px;
+}
+.homepage__form__input {
+    outline: 2px;
+    border: 5px;
+    width: 300px;
+    height: 35px;
+    outline: none;
+    color: white;
+    text-align: center;
+    background-color: red;
+    font-family: inherit;
+    border-radius: 10px 0 0 10px;
+    font-size: 18px; 
+}
+.homepage__form__button {
+    outline: 2px;
+    border: 2px;
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    border-radius: 0 10px 10px 0;
+    font-size: 18px; 
+}
+.homepage__poke {
+    align-items: center;
+}
